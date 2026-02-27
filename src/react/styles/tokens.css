@@ -1,0 +1,38 @@
+:root,
+[data-theme="dark"] {
+  --sb-bg-primary: #29323c;
+  --sb-bg-secondary: #3a4552;
+  --sb-bg-hover: #4a5668;
+  --sb-text-primary: #a0a7b4;
+  --sb-text-secondary: #6a7485;
+  --sb-text-highlight: #d3d8e0;
+  --sb-border: #3a4552;
+  --sb-accent: #5b8ef4;
+  --sb-accent-hover: #7aa5f7;
+  --sb-switch-on: #5b8ef4;
+  --sb-switch-off: #6a7485;
+  --sb-dropdown-bg: #3a4552;
+  --sb-dropdown-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --sb-input-bg: #29323c;
+  --sb-font-family: system-ui, -apple-system, sans-serif;
+  --sb-font-size-sm: 11px;
+  --sb-font-size-md: 12px;
+  --sb-radius: 4px;
+}
+
+[data-theme="light"] {
+  --sb-bg-primary: #ffffff;
+  --sb-bg-secondary: #f7f7f7;
+  --sb-bg-hover: #ebebeb;
+  --sb-text-primary: #333333;
+  --sb-text-secondary: #999999;
+  --sb-text-highlight: #111111;
+  --sb-border: #e0e0e0;
+  --sb-accent: #2970ff;
+  --sb-accent-hover: #1a5ce0;
+  --sb-switch-on: #2970ff;
+  --sb-switch-off: #cccccc;
+  --sb-dropdown-bg: #ffffff;
+  --sb-dropdown-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --sb-input-bg: #ffffff;
+}
