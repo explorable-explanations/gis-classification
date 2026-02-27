@@ -6,21 +6,21 @@
   "type": "module",
   "exports": {
     ".": {
-      "types": "./dist/core/index.d.ts",
-      "import": "./dist/core/index.js",
-      "require": "./dist/core/index.cjs"
+      "types": "./docs/core/index.d.ts",
+      "import": "./docs/core/index.js",
+      "require": "./docs/core/index.cjs"
     },
     "./react": {
-      "types": "./dist/react/index.d.ts",
-      "import": "./dist/react/index.js",
-      "require": "./dist/react/index.cjs"
+      "types": "./docs/react/index.d.ts",
+      "import": "./docs/react/index.js",
+      "require": "./docs/react/index.cjs"
     }
   },
-  "main": "./dist/core/index.cjs",
-  "module": "./dist/core/index.js",
-  "types": "./dist/core/index.d.ts",
+  "main": "./docs/core/index.cjs",
+  "module": "./docs/core/index.js",
+  "types": "./docs/core/index.d.ts",
   "files": [
-    "dist"
+    "docs"
   ],
   "scripts": {
     "build": "tsup",
