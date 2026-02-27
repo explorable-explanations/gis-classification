@@ -249,7 +249,7 @@ function App() {
         階級分類方法の可視化
       </h1>
       <p style={{fontSize: '12px', color: 'var(--sb-text-secondary)', margin: '0 0 16px 0'}}>
-        statsbreaks + bertin から抽出した階級分類 &amp; カラーパレット選択UI
+        階級分類とは、GISにおける連続データを意味のある区間に分け、地図上で解釈可能にするための方法です。
       </p>
 
       <div style={{marginBottom: '12px', display: 'flex', alignItems: 'center', gap: '16px'}}>
